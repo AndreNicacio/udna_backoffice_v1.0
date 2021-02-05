@@ -1,0 +1,31 @@
+{
+  "name": "udna-backoffice",
+  "version": "1.0.0",
+  "description": "BackOffice administrative management application for uDNA Life",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "^4.5.5",
+    "aws-sdk": "^2.804.0",
+    "dotenv": "^8.2.0",
+    "jwt-decode": "^3.1.2",
+    "node-fetch": "^2.6.1",
+    "process": "^0.11.10",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "util": "^0.12.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Andre Nicacio",
+  "license": "ISC"
+}
